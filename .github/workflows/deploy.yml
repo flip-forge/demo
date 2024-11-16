@@ -25,7 +25,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: build-flip-forge
         id: build
-        uses: flip-forge/build-flip-forge@v1
+        uses: flip-forge/build-flip-forge@main
         with:
           file: "book.pdf"
           title: "Book title"
